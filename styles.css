@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    
+}
+:root{
+    --sectioncolor:#2b3c4d;
+    --textcolor:#7c9fbf;
+}
+
+body{
+    background-color: #1b2630;
+    overflow-x: hidden;
+}
+
+.links{
+    height: 50px;
+    width: 80vw;
+    position: relative;
+    top:20vh;
+    left: 10vw;
+    background-color: var(--sectioncolor);
+    border-radius: 3px;
+
+}
+nav{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-family: "Playfair Display",serif;
+    color:white;
+    padding:5px 10px;
+
+}
+
+nav a:hover{
+    color:#1b2630;
+}
+
+.main{
+    height: fit-content;
+    width: 80vw;
+    position: relative;
+    top:25vh;
+    left:10vw;
+    background-color: var(--sectioncolor);
+    border-radius: 5px;
+}
+
+h1,h2{
+    color: var(--textcolor);
+    font-family: "Playfair Display",serif;
+    margin-left: 5vw;
+    margin-top: 0;
+}
+h1{
+    margin-right: 10vw;
+    margin-bottom: 1vh;
+    padding-top:2vh;
+}
+p{
+    font-family: Merriweather;
+    color: var(--textcolor);
+    margin: 0 5vw;
+    text-align: justify;
+    padding-bottom: 5vh;
+    line-height: 1.5rem;
+}
+.bold{
+    color:white;
+}
+
+.contact{
+    position: relative;
+    top: 27vh;
+    left: 10vw;
+    font-size: 2.5rem;
+}
+
+.contact a{
+    color: white;
+}
+
+.contact a:hover{
+    color: var(--textcolor)
+}
